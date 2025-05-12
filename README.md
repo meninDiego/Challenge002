@@ -55,7 +55,7 @@ Digite a moeda de origem (ex: USD): USD
 Digite a moeda de destino (ex: BRL): BRL
 Resultado da conversão: 100.0 USD = 505.23 BRL
 
-## 6.E o log salvo será algo como:
+## 6.O log salvo será algo como:
 
 [2025-05-12 14:23:45] Conversão realizada: 100.0 USD = 505.23 BRL
 
