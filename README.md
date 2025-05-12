@@ -22,5 +22,53 @@ Este é um projeto simples de conversor de moedas feito em Java. Ele utiliza uma
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+Compile o projeto com Maven:
+
+
+mvn compile
+Execute o programa:
+
+
+mvn exec:java -Dexec.mainClass="main.ConversorMonetario"
+Estrutura do projeto
+main/ConversorMonetario.java – Classe principal do programa
+
+services/ApiService.java – Responsável por fazer chamadas à API
+
+services/ConversaoLogger.java – Registra as conversões em um arquivo de log
+
+models/Moeda.java – Representa os dados da moeda convertida
+
+utils/ValidadorMoeda.java – Faz a validação dos códigos de moeda
+
+logs.txt – Arquivo gerado automaticamente com o histórico das conversões
+
+Exemplo de uso no terminal
+
+Digite o valor que deseja converter: 100
+Digite a moeda de origem (ex: USD): USD
+Digite a moeda de destino (ex: BRL): BRL
+
+Resultado da conversão: 100.0 USD = 505.23 BRL
+E o log salvo será algo como:
+
+
+[2025-05-12 14:23:45] Conversão realizada: 100.0 USD = 505.23 BRL
+
+Objetivo do projeto
+Este projeto foi desenvolvido como parte dos meus estudos em Java, com o objetivo de praticar:
+
+Consumo de APIs REST em Java puro
+
+Manipulação de JSON com Gson
+
+Estruturação de código com orientação a objetos
+
+Uso do Maven para gerenciamento de dependências
+
+Escrita de logs com java.time
+
+Autor
+Feito por Diego Menin como parte da formação Java Back-End ONE da Oracle/Alura.
+
