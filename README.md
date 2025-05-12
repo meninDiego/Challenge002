@@ -12,7 +12,7 @@ Este é um projeto simples de conversor de moedas feito em Java. Ele utiliza uma
 
 ## Tecnologias utilizadas
 
-- Java 17
+- Java 21
 - API Exchangerate.host
 - Gson (para leitura de JSON)
 - Maven
